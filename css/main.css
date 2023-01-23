@@ -1,0 +1,79 @@
+*{
+	box-sizing: border-box;
+}
+
+body{
+	background-color:#d56ff7;	
+	position: relative;
+}
+.layout{
+	background-color: #000;
+    height: 500px;
+    width: 500px;
+    color: #fff;
+    border-radius: 10px;
+    padding: 50px;
+    position: absolute;
+    top: 250px;
+    left: 500px;
+}
+
+
+.container{
+	display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.f-item{
+	padding-bottom: 10px;
+	text-align: center;
+}
+.f-item .title{
+	font-size: 25px;
+	padding-bottom: 10px;
+}
+.f-item .content{
+	font-size: 45px;
+	padding-bottom: 10px;
+}
+
+.container .circle{
+	width:20px;
+	height:20px;
+	border: 3px solid #fff;
+	border-radius:50%;
+	position: relative;
+	background-color:red;
+	
+}
+.container h3{
+	font-size: 20px;
+	font-weight:bold;
+	position: absolute;
+    top: 5px;
+    left: 10px;
+}
+.meredium {
+	position: absolute;
+    bottom: 60px;
+    right: 100px;
+}
+.meredium .circle{
+	width:20px;
+	height:20px;
+	border: 3px solid #fff;
+	border-radius:50%;
+	position: relative;
+	background-color:red;
+	margin-bottom: 15px;
+}
+.meredium h3{
+	font-size: 20px;
+	font-weight:bold;
+	position: absolute;
+    top: 5px;
+    left: 10px;
+	padding-bottom:5px;
+}
